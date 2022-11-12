@@ -1,0 +1,182 @@
+<html>
+<head>
+<style>
+div.img {
+    margin: 5px;
+    border: 0px solid #ccc;
+    float: left;
+    width: 213px;
+    height: 300px ;
+    
+}
+
+div.img img:hover {
+    border: 2px solid #777;
+    
+    
+    
+}
+div.img:hover {
+    
+    z-index : 999 ;
+     
+    
+}
+div.img img {
+    width: 213;
+    height: 220;
+    
+-webkit-transition: all 2s ease; 
+-moz-transition: all 2s ease; 
+-ms-transition: all 2s ease; 
+transition: all 2s ease; 
+
+}
+
+div.img img  {
+    width: 213;
+    height: 220;
+  
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+</style>
+
+</head>
+<body>
+<center><h3 style="color:blue;">Photo Gallery</h3>
+	
+</center>
+
+
+
+
+<div class="img">
+  <a target="_blank" href="photogallary/DSC_0355.JPG">
+    <img src="photogallary/DSC_0355.JPG"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 11</div>
+</div>
+
+
+
+<div class="img">
+  <a target="_blank" href="photogallary/DSC_0382.JPG">
+    <img src="photogallary/DSC_0382.JPG"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 12</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="photogallary/DSC_0394.JPG">
+    <img src="photogallary/DSC_0394.JPG"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 13</div>
+</div>
+
+
+<div class="img">
+  <a target="_blank" href="photogallary/DSC_0405.JPG">
+    <img src="photogallary/DSC_0405.JPG"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 14</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="photogallary/DSC_0428.JPG">
+    <img src="photogallary/DSC_0428.JPG"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 15</div>
+</div>
+
+
+<div class="img">
+  <a target="_blank" href="photogallary/DSC_0448.JPG">
+    <img src="photogallary/DSC_0448.JPG"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 16</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="photogallary/DSC_0478.JPG">
+    <img src="photogallary/DSC_0478.JPG"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 17</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="photogallary/DSC_0499.JPG">
+    <img src="photogallary/DSC_0478.JPG"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 18</div>
+</div>
+
+<div class="img">
+  <a target="_blank" href="photogallary/DSC_0521.JPG">
+    <img src="photogallary/DSC_0521.JPG"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 19</div>
+</div>
+
+
+<div class="img">
+  <a target="_blank" href="photogallary/DSC_0547.JPG">
+    <img src="photogallary/DSC_0547.JPG"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 20</div>
+</div>
+
+
+<div class="img">
+  <a target="_blank" href="photogallary/Kislaya2016-  (8).jpg">
+    <img src="photogallary/Kislaya2016-  (8).jpg"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 2016(1)</div>
+</div>
+
+
+
+<div class="img">
+  <a target="_blank" href="photogallary/Kislaya2016-  (19).jpg">
+    <img src="photogallary/Kislaya2016-  (19).jpg"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 2016(2)</div>
+</div>
+
+
+<div class="img">
+  <a target="_blank" href="photogallary/Kislaya2016-  (25).jpg">
+    <img src="photogallary/Kislaya2016-  (25).jpg"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 2016(3)</div>
+</div>
+
+
+
+<div class="img">
+  <a target="_blank" href="photogallary/Kislaya2016-  (42).jpg">
+    <img src="photogallary/Kislaya2016-  (42).jpg"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 2016(4)</div>
+</div>
+
+
+
+<div class="img">
+  <a target="_blank" href="photogallary/Kislaya2016-  (71).jpg">
+    <img src="photogallary/Kislaya2016-  (71).jpg"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 2016(5)</div>
+</div>
+
+
+<div class="img">
+  <a target="_blank" href="photogallary/Kislaya2016-  (88).jpg">
+    <img src="photogallary/Kislaya2016-  (88).jpg"  >
+  </a>
+  <div class="desc"> kislaya Annual Fuction 2016(6)</div>
+</div>
+</body>
+</html>

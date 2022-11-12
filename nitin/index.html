@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FAQ (Nitin)</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+<style>
+	*{font-family: 'Krona One', sans-serif;}
+
+.dropbtn {
+  background-color: #00d2d3;
+  
+  padding: 6px;
+  height: 40px; width: 100%;  border-radius: 5px; font-size: 20px; cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 495px
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00d2d3;
+  min-width: 1047px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  color: #FFFFFF;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #3e8e41;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.dropdown:link .dropbtn  {color: black;}
+.dropdown:visited .dropdown-content {color: blue;}
+.dropdown:hover .dropbtn  {color: yellow;}
+.dropdown:active .dropbtn  {color: green;}
+
+
+</style>
+</head>
+<body>
+<div class="backimg">	
+<h1 style="color: #130f40; background-color: #0be881; text-align:center; padding:10 0; height: 50px; border: double;border-radius:10px ;font-size: 2.5em; letter-spacing: 5px; display: flex;
+  justify-content: space-around;align-items: center;">
+<b><i><u>FAQ'S</b></u></i></h1>
+<hr><hr>
+
+<center>
+  <div class="w3-content w3-section" style="max-width:1000px">
+  <img class="mySlides w3-animate-fading" src="image/ncl1.jpg" style="width:100%" title="New Core Lab IIT Kanpur">
+  <img class="mySlides w3-animate-fading" src="image/ncl2.jpg" style="width:100%" title="New Core Lab IIT Kanpur">
+  <img class="mySlides w3-animate-fading" src="image/ncl3.jpg" style="width:100%" title="New Core Lab IIT Kanpur">
+  <img class="mySlides w3-animate-fading" src="image/ncl4.jpg" style="width:100%" title="New Core Lab IIT Kanpur">
+  <img class="mySlides w3-animate-fading" src="image/ncl5.jpg" style="width:100%" title="New Core Lab IIT Kanpur">
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3500);    
+}
+</script>
+
+<br><br>
+<!-- Links -->
+
+<center>
+<button style="background-color: #00d2d3; text-align:center; padding:10 0; height: 40px; width: 55%; border-radius: 5px; font-size: 20px;">
+<a href="faq/Matlab R2019b.html" target="_blank" style="text-decoration: none;" title="Click Here to Open">
+Installation of Matlab R2019b</a>
+</button>
+<br>
+<center>
+<button style="background-color: #00d2d3; text-align:center; padding:10 0; height: 40px; width: 55%; border-radius: 5px; font-size: 20px;">
+<a href="faq/Matlab R2020b.html" target="_blank" style="text-decoration: none;" title="Click Here to Open">
+Installation of Matlab R2020b</a>
+</button>
+<br>
+<div class="dropdown">
+  <button class="dropbtn">Activation and Configuration of BitLocker</button>
+  <div class="dropdown-content">
+    <a href="faq/Enable BitLocker.html"target="_blank" style="text-decoration: none;" title="Click Here to Open">Enable BitLocker</a>
+    <a href="faq/Off Bitlocker.html"target="_blank" style="text-decoration: none;" title="Click Here to Open">Turning off BitLocker</a>
+    <a href="faq/Key Bitlocker.html"target="_blank" style="text-decoration: none;" title="Click Here to Open">Method of saving BitLocker key</a>
+    <a href="faq/Move Bitlocker.html"target="_blank" style="text-decoration: none;" title="Click Here to Open">Moving BitLocker drive to other computer</a>
+
+
+  </div>
+</div>
+<br>
+<center>
+<button style="background-color: #00d2d3; text-align:center; padding:10 0; height: 40px; width: 55%; border-radius: 5px; font-size: 20px">
+<a href="faq/Mathematica 8.html" target="_blank" style="text-decoration: none;" title="Click Here to Open ">
+Activation and Installation of Mathematica 8</a>
+</button>
+<br>
+<center>
+<button style="background-color: #00d2d3; text-align:center; padding:10 0; height: 40px; width: 55%; border-radius: 5px; font-size: 20px">
+<a href="faq/Ansys 2020.html" target="_blank" style="text-decoration: none;" title="Click Here to Open ">
+Activation and Installation of ANSYS 2020</a>
+</button>
+</div>
+<footer>
+		<p style="text-align:center;">	<span style="font-size: 10pt; color: #3742fa;"><b>&copy;</b>
+	<b>Developed and Maintained By : </b><span style="font-size: 12pt; color: #002677;">Nitin(New Core Lab)
+	</footer>
+</body>
+</html>

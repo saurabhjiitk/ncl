@@ -1,0 +1,76 @@
+
+
+
+
+
+<html>
+
+<style>
+.body
+{
+font-family: Verdana;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+p *
+{
+vertical-align: middle;
+
+}
+
+
+</style>
+
+<script type="text/javascript"> 
+function disablefield(){ 
+
+
+if (document.getElementById('no').checked == 1){ 
+document.getElementById('b').disabled='disabled'; 
+document.getElementById('b').value='disabled';
+}
+if (document.getElementById('yes').checked == 1)
+{ 
+document.getElementById('b').disabled=''; 
+document.getElementById('b').value=''; } 
+if (document.getElementById('yes').checked == 0)
+{ 
+document.getElementById('b').disabled='disabled'; 
+document.getElementById('b').value='disabled'; } 
+} 
+</script>
+
+
+<body class="body">
+
+<div style="text-align:center">Forword email <br>
+
+<form method="POST" action="sendemail.php">
+
+To : <input type="radio" name="option"  value="Nursery A" id="no" onchange="disablefield()"> Nursery A 
+<input type="radio"  name="option" value="Nursery B" id="no" onchange="disablefield()"> Nursery B
+
+<input type="radio" name="option" value="Nursery C"  id="no" onchange="disablefield()"> Nursery C
+<input type="radio" name="option" value="KG A" id="no" onchange="disablefield()"> KG A
+<input type="radio" name="option" value="KG B" id="no" onchange="disablefield()"> KG B 
+<input type="radio" name="option" value="KG C" id="no" onchange="disablefield()"> KG C
+<input type="radio" name="option" checked="checked" id="no" value="All" onchange="disablefield()"> All
+<input type="radio" value="custom" name="option" id="yes"  onchange="disablefield()"> Any body<br>
+<div id="anybody"> Email id :<input type="textox" name="customid" id="b" size="60" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" disabled="true" ></input></div>
+<br>
+Subject          :<input type="text" name="subject" size="60" title="subject is required !" required> </input></br>
+<p>Message Body 1     :<textarea name="mess1" rows="4" cols="80" title="Message body is required !" required> </textarea><p>
+<p>Message Body 2     :<textarea name="mess2" rows="4" cols="80" > </textarea><p>
+<p>Message Body 3    :<textarea name="mess3" rows="4" cols="80" > </textarea><p></br>
+<input type="submit" value="Send"></input>
+</form>
+</div>
+
+</body>
+</html>
+
+
+

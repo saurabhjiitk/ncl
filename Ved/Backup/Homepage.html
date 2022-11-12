@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="CSS/design.css" rel="stylesheet" type="text/css">
+<link href="animate.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+	/* Style the navigation menu */
+.navbar {
+  width: 80%;
+  background-color: #555;
+  overflow: auto;
+  margin-left: 10%;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Style the current/active link */
+
+.active {
+  background-color: #4CAF50;
+}
+
+#top_div{
+  height:300px;
+  width: 80%;
+  margin-left: 10%;
+  background-color:rgba(200,199,199,0.6);
+  }
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+</style>
+</head>
+<body style="background-color:#e6e6e6;">
+	<!-- The navigation menu -->
+<div class="navbar" align="center">
+  <a class="active" href="Homepage.html">Home</a> 
+  <a href="FAQ.html">FAQ</a> 
+    <a class="#" href="Contact Me.html">Contact me</a>
+
+</div>
+
+<div id="top_div" align="center" >
+<img id="img1" class="zoomInDown animated" style="margin-top: 20px;" src="IIT_Kanpur_Logo.png" width="200px" height="200px" alt="IIT Kanpur"/>
+<h1>
+  
+      <font>Welcome to Indian Institute Of Technology</font>
+    </marquee>
+</h1>
+</div>	
+</body>
+</html>

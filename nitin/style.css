@@ -1,0 +1,25 @@
+*{
+	margin: 0;
+	padding: 0;
+
+
+
+}
+.backimg{
+	width: 100%;
+	height:100vh;
+	;
+	background-image: url('image/logo iitk.png');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+
+}
+a:link {color: black;
+}
+a:visited {color: blue;
+}
+a:hover {color: yellow;
+}
+a:active {color: green;
+}

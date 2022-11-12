@@ -1,0 +1,653 @@
+body html
+
+{
+width:100%;
+
+
+}
+.body0{
+   height:1400px;
+   width:1024px ;
+position: relative;
+top : 45px ;
+
+}
+.header{
+   
+   height: 200px;
+   width:100% ;
+border: 1px solid #73AD21;
+position: relative;
+background:white;
+margin-top:10px;
+border-radius:1em;
+
+
+}
+.body1{
+   height:400px;
+   width:100% ;
+border: 0px solid #73AD21;
+border-radius:1em;
+margin-top:3px;
+
+}
+
+.body2{
+   height:320px;
+   width:100% ;
+border: 0px solid #73AD21;
+background:white;
+border-radius:1em;
+margin-top:3px;
+}
+
+
+
+.body3{
+   height:210px;
+   width:100% ;
+border: 0px solid #73AD21;
+background:white;
+border-radius:1em;
+margin-top:5px;
+clear:both;
+border: 2px solid SteelBlue;
+
+}
+.body33{
+   height:210px;
+   width:100% ;
+border: 0px solid #73AD21;
+background:white;
+border-radius:1em;
+margin-top:6px;
+clear:both;
+border: 2px solid SteelBlue;
+
+}
+
+#b3left{
+color:SteelBlue ;
+   height:210px;
+   width:49% ;
+float: left;
+border: 0px solid #73AD21;
+
+
+
+
+
+}
+
+#b3right{
+color:SteelBlue ;
+   height:210px;
+   width:49% ;
+float:left;
+border: 0px solid #73AD21;
+
+
+
+
+}
+.footer{
+    position: relative;
+   col1or:green;
+   height:25px;
+   width:100%;
+
+border: 0px solid #73AD21;
+}
+
+.left{
+   position: relative;
+   float:left;
+   height:750px;
+   width:20%;
+ background:blue;
+border: 0px solid #73AD21;
+
+}
+.right {
+   position: relative;
+   float:left;
+   height:750px;
+   width:20%;
+ background:blue;
+border: 0px solid #73AD21;
+
+}
+
+#frame{
+   position: relative;
+   
+   height:725px;
+   width:100%;
+ background:white;
+border: 0px solid #73AD21;
+border-radius:1em;
+margin-top:2px;
+
+}
+
+.menu-bar{
+   position: absolute;
+   top : 0px;
+   left: 0px;
+   right:0px;
+   height:50px;
+   width:100%;
+ background:#4d0000;
+z-index:9999;
+border: 0px solid #73AD21;
+display: inline-block;
+text-align: center ;
+	min-width: 1040px;
+display:table; /* centers modern browsers */
+margin:0 auto; /* centers modern browsers */
+}
+.log1o_kislay{
+ position: relative;
+   float:left;
+   height:100%;
+   width:20%;
+ 
+
+}
+.logo1_kislay img {
+width:100%;
+height:100%;
+border-top-left-radius:1em;
+border-bottom-left-radius:1em;
+hspace:5px;
+}
+ 
+
+
+.photo_kislay
+{ position: relative;
+   float:left;
+   height:160px;
+   width:98%;
+     
+
+}
+
+.photo_kislay img
+{
+
+border-radius:1em;
+}
+
+
+.log1o_iitk{
+
+position: relative;
+   float:left;
+   height:100%;
+   width:20%;
+text-align:center;
+
+}
+
+.logo_iitk img{
+border-radius:1em;
+
+
+
+
+}
+
+.line1
+{
+height:5px;
+   width:100% ;
+border: 0px solid #73AD21;
+background:red;
+display:none;
+
+
+}
+
+.line1 img
+
+{
+
+}
+
+.line11
+{
+height:13px;
+   width:100% ;
+border: 0px solid #73AD21;
+background:white;
+}
+
+
+.b2left{
+float :left ;
+height:100%;
+width:33.33% ;
+border: 0px solid #73AD21;
+position: relative;
+color:red ;
+}
+.new1s
+
+{
+color:red;
+
+}
+
+
+#l1
+{
+color:SteelBlue ;
+height:195px;
+   width:20% ;
+border: 0px solid #73AD21;
+float:left;
+margin-top:10px;
+
+}
+#l1 img
+{border-radius:1em;}
+
+#ll1
+{
+color:SteelBlue ;
+height:215px;
+   width:77% ;
+border: 0px solid #73AD21;
+float:left;
+
+
+}
+
+.frameleft{
+position: relative;
+   float:left;
+   height:100%;
+   width:20%;
+ background:white; 
+ border: 2px solid SteelBlue;
+border-radius:1em;
+}
+.frameright{
+position: relative;
+   float:left;
+   height:100%;
+   width:79%;
+  background:white;
+border: 0px solid #73AD21
+
+
+}
+
+.containt{
+width:100%;
+height:100%;
+position: relative;
+ margin-left: 5px;
+border: 2px solid SteelBlue;
+border-radius:1em;
+background:white;
+}
+
+
+
+		.black_overlay{
+			display: none;
+			position: absolute;
+			top: 0%;
+			left: 0%;
+			width: 100%;
+			height: 100%;
+			background-color: gray;
+			z-index:10000;
+                        
+			-moz-opacity: 0.8;
+			opacity:.80;
+			filter: alpha(opacity=80);
+		}
+		.white_content {
+			display: none;
+			position: absolute;
+			top: 20%;
+			left: 28%;
+			width: 40%;
+			height: 40%;
+			padding: 16px;
+			border: 16px solid orange;
+			background-color: white;
+			z-index:10002;
+			overflow: auto;
+		}
+
+*************************************************tab*****************************
+
+
+.hovertable {
+
+text-align:center ;
+
+}
+.hovertable tr   {
+ background-image: url('/images/rd11.PNG');
+    background-repeat: no-repeat ;
+height:45px ;
+}
+
+.hovertable tr:hover   {
+ background-image: url('/images/ru11.PNG');
+    background-repeat: no-repeat ;
+
+}
+
+.hovertable tr td a:hover {
+color:yellow;
+
+background-co0lor:SteelBlue;
+}
+.hovertable tr td a {
+text-decoration: none;
+color:black;
+   font-size: 13px;
+	font-weight: normal;
+}
+
+
+
+.hovertable tr  td  {
+width:280px ;
+}
+
+.ani {
+
+background-image: url("http://iitk.ac.in/kislaya/images/slideshow/11.jpg");
+    background-repeat: no-repeat;
+   border-radius:1em;  
+
+}
+
+.ani img
+{
+border-radius:1em;
+}
+
+#lsmenu {
+
+position :fixed ;
+z-index : 1000 ;
+width :75px;
+left : 0px;
+margin-top:200px ;
+background1 : yellow ;
+height :400px ;
+display:none;
+
+
+}
+
+#lsmenu a {
+
+text-decoration :none ;
+
+}
+#lsmenu a img {
+
+float:left ;
+width:50px;
+height:50px;
+
+}
+#lsmenu a  img:hover{
+
+width:75px ;
+
+}
+
+
+
+#rsmenu {
+
+position :fixed ;
+z-index : 1000 ;
+width :75px;
+right : 0px;
+margin-top:300px ;
+background1 : yellow ;
+height :400px ;
+display:none;
+
+
+}
+
+#rsmenu a {
+
+text-decoration :none ;
+
+}
+#rsmenu a img {
+
+float:right ;
+width:25px;
+height:100px;
+opacity:0.4;
+
+}
+#rsmenu a  img:hover{
+
+width:30px ;
+opacity:1;
+
+}
+
+#ls50ann
+
+{
+position :fixed ;
+z-index : 1000 ;
+width :300px;
+left : 30px;
+margin-top:24% ;
+background1 : yellow ;
+height :400px ;
+
+}
+
+#ls50ann img 
+
+{
+border-radius: 2em;
+
+}
+
+
+#head50aa
+{
+
+width:100%;
+position :relative;
+height:50px;
+background : yellow ;
+
+}
+
+#overlayer
+{
+opacity:.9;
+    background-color:gray;
+    position:absolute;
+    width:100%;
+   height:1600px;;
+    top:0px;
+    left:0px;
+    right:0px; 
+    z-index:10001;
+    text-align:center;
+    transition: width 2s;
+    mi1n-width:1040px; 
+   
+
+
+}
+
+
+#closeit 
+{
+ 
+ position:absolute;
+text-align:center;
+right:0;
+z-index:100010;
+
+
+   
+}
+
+#nextit 
+{
+ 
+ position:absolute;
+text-align:center;
+left:5%;
+right:5%;
+z-index:100010;
+bottom: 10px;
+
+
+
+   
+}
+
+
+#closeme
+{
+
+
+}
+
+#logo50aa
+
+{
+top:5%;
+display:none;
+position:absolute;
+left:18%;
+right:18%;
+z-index:100010;
+height:90%;
+border-radius:1em;
+
+background-size: 100% 100%;
+
+
+}
+
+
+@keyframes cssAnimation {
+    from {
+        visibility:hidden;
+    }
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+@-webkit-keyframes cssAnimation {
+    from {
+        visibility:hidden;
+    }
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
+
+@keyframes closeme {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+      
+    }
+}
+@-webkit-keyframes closeme {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+        
+    }
+}
+table#con tr th 
+
+{
+font-size:12px;
+font-family: Verdana;
+text-align:left;
+
+
+
+}
+
+table#con tr td 
+
+{
+
+font-size:12px;font-family: Verdana;
+
+
+
+}
+
+
+
+
+#body4
+
+{
+width:100%;
+height:290px;
+background:white;
+border-radius:1em;
+margin-top:3px;
+
+}
+#body4l
+
+{
+width:50%;
+height:290px;
+background-image: url("/css/image/50aa.jpg");
+background-size: 100% 100%;
+float:left;
+border-top-left-radius:1em;
+border-bottom-left-radius:1em;
+
+}
+#body4r
+
+{
+width:50%;
+height:290px;
+
+float:left;
+background-image: url("/css/image/thought.PNG");
+background-size: 100% 100%;
+border-top-right-radius:1em;
+border-bottom-right-radius:1em;
+
+}
+
+
+#anim1
+
+{
+border-radius:1em;
+margin-top:3px;
+}

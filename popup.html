@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+	
+<style type="text/css">
+@-webkit-keyframes fade{
+from {opacity:.5;}
+50% {opacity:1;}
+to {opacity:.5;}
+}
+@-moz-keyframes fade{
+from {opacity:.5;}
+50% {opacity:1;}
+to {opacity:.5;}
+}
+@-o-keyframes fade{
+from {opacity:.5;}
+50% {opacity:1;}
+to {opacity:.5;}
+}
+@-ms-keyframes fade{
+from {opacity:.5;}
+50% {opacity:1;}
+to {opacity:.5;}
+}
+#anim1 {-webkit-animation-name:fade;-webkit-animation-duration:5s;
+-webkit-animation-iteration-timing-function:linear;position:relative;
+-webkit-animation-iteration-count:infinite;-moz-animation-name:fade;
+-moz-animation-duration:5s;-moz-animation-iteration-timing-function:linear;
+-moz-animation-iteration-count:infinite;-o-animation-name:fade;
+-o-animation-duration:5s;-o-animation-iteration-timing-function:linear;
+-o-animation-iteration-count:infinite;-ms-animation-name:fade;
+-ms-animation-duration:5s;-ms-animation-iteration-timing-function:linear;
+-ms-animation-iteration-count:infinite;}
+
+
+
+span{
+
+font-family:verdana;
+font-size :12px;
+
+}
+
+.news
+{
+font-family:verdana;
+font-size :12px;
+
+}
+#close2
+{
+visibility:hidden;
+}
+	#closeit{
+ 
+ position:absolute;
+text-align:center;
+right:0;
+z-index:100010;
+
+
+   
+}
+#logo50aa
+
+{
+top:25%;
+display:block;
+position:absolute;
+left:20%;
+right:20%;
+z-index:100010;
+height:100%;
+background-image: url("#");
+border-radius:1em;
+
+background-size: 100% 100%;
+}
+#overlayer{
+opacity:.8;
+    background-color:gray;
+    position:absolute;
+    width:100%;
+   height:141%;
+    top:0px;
+    left:0px;
+    right:0px; 
+    z-index:10001;
+    text-align:center;
+    transition: width 2s;
+    mi1n-width:1040px; 
+   
+
+
+}
+
+
+</style>
+
+
+
+<script type="text/javascript">
+$(function() {
+    $('#slider').nivoSlider({
+        controlNav: false,
+        pauseTime: 4500,
+	controlNav: true,
+        effect: 'random',
+        randomStart: true,
+    });
+});
+
+function showDiv() {
+   document.getElementById('overlayer').style.width = "0px";
+   document.getElementById('logo50aa').style.display = "none";
+}
+</script>
+
+<script type="text/javascript">
+function nextimg() {
+   logo50aa.style.backgroundImage = "url(http://iitk.ac.in/kislaya/css/image/22.png)";
+   close1.style.visibility="hidden";
+    close2.style.visibility="visible";   
+}
+
+function backimg() {
+   logo50aa.style.backgroundImage = "url(http://iitk.ac.in/kislaya/css/image/11.png)";
+   close2.style.visibility="hidden"; 
+   close1.style.visibility="visible";
+}
+
+</script>	
+</head>
+
+<body>
+	<div id="overlayer">
+
+
+
+ </div>
+
+
+
+
+<div id="logo50aa">
+<div id="closeit"  >
+	<center> <span style="color:white;font-family:verdana;margin-top:0px;left-margin:10px;"> </span>
+
+		 <span style="color:white;font-family:verdana;margin-top:0px;">  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+			 <a id="closeme"href="#index" onclick="showDiv()" style="font-family:verdana;margin-top:0px;text-decoration: none;right-margin:5px;" >
+				 <img src="close.png" width="20px" height="20px">
+		</a>
+	</center>
+	
+</div>
+
+
+ <div align="center"><img src="images/iitk_1.jpg" style="width:100%;"></div>
+</div>
+
+
+</body>
+</html>

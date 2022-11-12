@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>Contact - Detail</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+ .collapsible:hover {
+  background-color: #555;
+}
+
+
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+  /* Style the navigation menu */
+.navbar {
+  width: 80%;
+  background-color: #555;
+  overflow: auto;
+  margin-left: 10%;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Style the current/active link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+</style>
+</head>
+<body align="center" style="" >
+    <!-- The navigation menu -->
+<div class="navbar" align="center">
+  <a class="#" href="index.html">Home</a> 
+  <a class="#" href="faq.html">FAQ</a> 
+  <a class="active" href="Contact_Me.html">Contact Me</a>
+
+</div>
+
+<div align="center" style=" font-size: 18px; background-color:#e6e6e6; border: 5px solid black; margin: 10px 10% 15px 10%;">
+  <div style="margin: 0px 5% 0px 5%;">
+
+
+
+
+
+<h3>Ved Prakash Sharma</h3>
+
+Address: 741, A. B. Nagar, Unnao, U. P. (209801)
+<br>
+Call me: 9208501461, 9140893762
+<br>
+Email me: <a href="#" style=" font-size:1.0vw;">vedprakash14@gmail.com</a>
+<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" style=" font-size:1.0vw;">vpsharma@iitk.ac.in</a>
+
+
+
+
+<br>
+<br>
+<br>             
+    </div>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>

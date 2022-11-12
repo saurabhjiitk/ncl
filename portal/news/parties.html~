@@ -1,0 +1,33 @@
+<html>
+<head></head>
+<style>
+#aa {
+
+	background-image: url("divbg.PNG");
+        background-size: 100% 100%;
+    background-repeat: no-repeat; 
+  width:45%;
+    height:100px;
+   text-align:center;
+  position:relative;
+   
+}
+#aa p
+{
+padding-top: 1cm;
+
+}
+</style>
+<body>
+<center><h3 style="color:blue;">Kislaya Nursery School <br>IIT Kanpur</h3></center>
+<center>
+<div style="width:30%;height:50px;background:#4d0000;border-radius:1em;box-shadow: 10px 10px 5px #888888;text-align:center;margin-top:10px;margin-bottom:20px;"><h3 style="color:white;padding-top: 10px" vspace="50px">Parties 2016-2017  </h3></div>
+
+
+<div id="aa"> <p>Lemonade Party – 10th may</div>
+<div id="aa"><p>Mango Party – 15th July</div>	
+<div id="aa"><p>Christmas Party – 20th December</div>
+
+</center>
+</body>
+</html>

@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>FAQ - Detail</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+ .collapsible:hover {
+  background-color: #555;
+}
+
+
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+  /* Style the navigation menu */
+.navbar {
+  width: 80%;
+  background-color: #555;
+  overflow: auto;
+  margin-left: 10%;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+  text-align: center; /* If you want the text to be centered */
+}
+
+/* Add a background color on mouse-over */
+.navbar a:hover {
+  background-color: #000;
+}
+
+/* Style the current/active link */
+.active {
+  background-color: #4CAF50;
+}
+
+/* Add responsiveness - on screens less than 500px, make the navigation links appear on top of each other, instead of next to each other */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; /* If you want the text to be left-aligned on small screens */
+  }
+}
+
+</style>
+</head>
+<body align="center" style="" >
+    <!-- The navigation menu -->
+<div class="navbar" align="center">
+  <a class="#" href="index.html">Home</a> 
+  <a class="active" href="FAQ.html">FAQ</a> 
+  <a class="#" href="Contact_Me.html">Contact me</a>
+
+</div>
+
+<div align="center" style=" font-size: 18px; background-color:#e6e6e6; border: 5px solid black; margin: 10px 10% 15px 10%;">
+  <div style="margin: 0px 5% 0px 5%;">
+<h1 style="text-align:center; color:#003380; margin-top: 5%; font-size:2.3vw;">How to Access IITK VPN network from outside of the Campus</h1>
+<hr style="border-top: 3px solid #003380;">
+<h4 style="color:#003380; font-size:2.2vw;">Use VPN for windows system:</h4>
+
+To download VPN, use this link-
+<br>
+<a href="#" style=" font-size:1.2vw;">https://www.iitk.ac.in/ccnew/index.php/network/ssl-vpn</a>
+<br>
+<br>
+
+<img src="images/vpn/1.jpg" alt="1" align="center" style="margin-right: 50px;  height: 500px;">
+
+<br>
+<br>
+select VPN Client for Windows Plateform and Click
+<br>
+select for <<32-Bit>> or <<64-Bit>>
+<br>
+<br>
+Download file
+<br>
+Double click on .exe file, run it and install SSL VPN.
+<br>
+<br>
+(Note: Before installing VPN, turn off system fire wall and anti-virus settings.)
+<br>
+<br>
+Open Start menu and click on FortiClient SSL VPN, get a new window
+<br>
+<br>
+
+<img src="images/vpn/2.jpg" alt="1" align="center" style="margin-right: 50px;  height: 500px;">
+
+<br>
+<br>
+
+Click on Configure VPN
+<br>
+<br>
+<br>
+
+<img src="images/vpn/3.jpg" alt="1" align="center" style="margin-right: 50px;  height: 500px;">
+
+<br>
+<br>
+Give a connection name (According to your choice – give any name)
+<br>
+<br>
+Fill gateway.iitk.ac.in in the column of remote gateway,   
+<br>
+<br>
+Select Customize port and fill port no. 443
+<br>
+<br>
+
+<img src="images/vpn/4.jpg" alt="1" align="center" style="margin-right: 50px;  height: 500px;">
+
+<br>
+<br>
+Select Save and you will get following window.
+<br>
+<br>
+<br>
+
+<img src="images/vpn/5.jpg" alt="1" align="center" style="margin-right: 50px;  height: 500px;">
+
+<br>
+<br>
+Fill IITK user name and Password, click on connect, wait 
+<br>
+<br>
+<br>
+
+<img src="images/vpn/6.jpg" alt="1" align="center" style="margin-right: 50px;  height: 500px;">
+
+<br>
+<br>
+Now Computer System is connected to IITK network as a LAN. 
+<br>
+You can access all local resources (telnet, ssh, ftp, browse any local server)
+<br>
+<br>
+<br>
+To access library online journals, 
+<br>
+Open web browser (Mozilla Firefox Is preferred) and set proxy address and port. 
+<br>
+Following this-
+<br>
+<br>
+
+<img src="images/vpn/7.jpg" alt="1" align="center" style="margin-right: 50px;  height: 500px;">
+
+<br>
+<br>
+(Note: 1. some browsers may have cached any page by accident, then delete browsing history of the web browser.
+<br>
+2.   For Windows users- set No Proxy in windows internet explorer.)
+<br>
+<br>
+<br>
+Use Command “nslookup gateway.iitk.ac.in” in Command Prompt to check connection. 
+<br>
+<br>
+Output should look like-
+<br>
+Server: ns2.iitk.ac.in
+<br>
+Address: 172.31.1.130
+<br>
+<br>
+Name:      gateway.iitk.ac.in
+<br>
+Address:   172.31.1.251
+<br>
+<br>
+
+<img src="images/vpn/8.jpg" alt="1" align="center" style="margin-right: 50px;  height: 500px;">
+
+<br>
+<br>
+<br>             
+<br>
+Please Give Feedback.
+    </div>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+</html>

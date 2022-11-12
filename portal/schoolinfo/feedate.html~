@@ -1,0 +1,75 @@
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align:center;
+font-family: verdana ;
+background-color: #FFFFCC;
+}
+
+
+h3 {
+	font-family: Verdana;
+	
+}
+
+td {
+ font-family: verdana ;
+        font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+
+
+}
+</style>
+
+</head>
+<body>
+<center><h3 style="color:red;">Kislaya Nursery School <br>IIT Kanpur  <p>FEE DATES 2017-18</h3></center>
+<table width="100%">
+
+<tr>
+<th>Month</th>
+<th>Date</th>
+<th>Time</th>
+<th>Day</th>
+
+</tr>
+<tr>
+<td>July & June, 2018 </td>
+<td>21<sup>st</sup> July</td>
+<td>9:30-11:00 am</td>
+<td>Saturday</td>
+</tr>
+<tr>
+<td> August & September, 2018</td>
+<td>18<sup>th</sup> August</td>
+<td>9:30-11:00 am</td>
+<td>Saturday</td>
+</tr>
+<tr>
+<td> October & November, 2018</td>
+<td>06<sup>th</sup> October</td>
+<td>9:30-11:00 am</td>
+<td>Saturday</td>
+</tr>
+<tr>
+<td>December, 2018 & January, 2019</td>
+<td>01<sup>st</sup> December </td>
+<td>9:30-11:00 am</td>
+<td>Saturday</td>
+</tr>
+<tr>
+<td>February & March,2019 </td>
+<td>02<sup>nd</sup> February</td>
+<td>9:30-11:00 am</td>
+<td>Saturday</td>
+</tr>
+</table>
+</body>
+</html>
+

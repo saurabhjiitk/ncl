@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">	
+<title>Enable BitLocker</title>
+<style>
+body {background-color: lightblue;}
+h1 {background-color: green; color: black; text-align: center;height: 50px; width: 63%; margin: auto;border-radius: 5px;font-size: 2.5em;padding: 10px;}
+p{color: black;text-align: center;font-size: 1.5em;text-shadow: 2px 2px 4px #F4D17F;}
+img:hover{-ms-transform: scale(1.5);-webkit-transform: scale(1.5);transform:scale(1.1);}
+button { background-color: red;border: none;color: white;padding: 10px;text-align: center;display: inline-block;font-size: 20px;margin-top: 10px;cursor: pointer;border-radius: 5px;}
+button:hover {background-color: #218c74;}
+</style>
+</head>
+<body>
+<center>
+<h1>Activation and Configuration of BitLocker in Microsoft Windows</h1>
+<p><i>BitLocker is a tool that's included with Microsoft Windows to enable drive encryption. To use BitLocker requires a functional called TPM module in your computer. The following tutorial will guide you through the steps required to enable BitLocker on Windows devices.</i></p>
+<p><mark><b><i> Note: </b></i></mark>BitLocker is available on machine running Windows Vista or 7 Ultimate, Windows Vista or 7 Enterprise, Windows 8.1 Pro, Windows 8.1 Enterprise, or Windows 10 Pro.</p>
+<h2 style="color: black;font-size:2em; text-shadow: 2px 2px 5px red;"><b><u> Enable BitLocker</u></b></h2>
+<p><mark><b><i> Note: </b></i></mark>You must be logged in as an administrator.</p>
+<p><b>Step 1:</b>Go to Control Panel, and click “BitLocker Drive Encryption”.</p>
+<br>
+<img src="BitLocker1(full)_files/image001.png" width="866" height="435" title="Step 1">
+<br>
+<p><b>Step 2:</b>Now click on “Turn on BitLocker” button on right side of the respective drive which you want to encrypt.</p>
+<br>
+<img src="BitLocker1(full)_files/image002.png" width="820" height="440" title="Step 2">
+<br>
+<p><b>Step 3:</b> BitLocker will run a system check to make sure your TPM has been enabled. Wait for this check to complete.
+After some time, a popup window will open as shown below. First select “Use a password to unlock the drive” now you are required to specify a password for encrypting the drive, enter the password and click "Next". You should choose a password having a combination of upper & lower-case letters, numbers, spaces, and special symbols. Once the encryption is complete, you can access the drive using this password.</p>
+<br>
+<img src="BitLocker1(full)_files/image003.png" width="820" height="440" title="Step 3">
+<br>
+<p><b>Step 4:</b> Choose the appropriate option to save your recovery key – save to a file, USB flash drive, or printing the key is the simplest method. Click next after you have produced your backup key. Please note that anyone can use the recovery key to gain access to the drive, even if they do not know the password entered in the previous step, so please do not disclose it to others.</p>
+<br>
+<img src="BitLocker1(full)_files/image004.png" width="820" height="440" title="Step 4">
+<br>
+<p><b>Step 5:</b> For saving the recovery key as a file on local drive select “Save to a file” and save the key to a secure location of your local drive.</p>
+<br>
+<img src="BitLocker1(full)_files/image005.png" width="820" height="440" title="Step 5">
+<br>
+<p><b>Step 6:</b> Select as per your requirement and Click next.</p>
+<br>
+<img src="BitLocker1(full)_files/image006.png" width="820" height="440" title="Step 6">
+<br>
+<p><b>Step 7:</b> Select Encryption mode as per your requirement and Click next.</p>
+<br>
+<img src="BitLocker1(full)_files/image007.png" width="820" height="440" title="Step 7">
+<br>
+<p><b>Step 8:</b> Click on “Start encrypting” to prepare your drive for BitLocker.</p>
+<br>
+<img src="BitLocker1(full)_files/image008.png" width="820" height="440" title="Step 8">
+<br>
+<p><b>Step 9:</b> The drive encryption process will start. Encryption process could take a long time to finish depending on the size of the drive, so please be patient to wait and when completed click on close.</p>
+<br>
+<img src="BitLocker1(full)_files/image009.png" width="500" height="234" title="Step 9">
+<br>
+<p><b>Step 10:</b> Now to fully activate BitLocker you have to restart your computer. Click the button to restart your computer and then login normally after your computer restarts.After restart your drives protected with BitLocker are identified with a lock icon in Windows Explorer as shown below in fig. Double click on the locked drive to open it.</p>
+<br>
+<img src="BitLocker1(full)_files/image010.png" width="820" height="440" title="Step 10">
+<br>
+<p><b>Step 11:</b> Enter the drive password.</p>
+<br>
+<img src="BitLocker1(full)_files/image011.png" width="820" height="440" title="Step 11">
+<br>
+<p><b>Step 12:</b> Now drive is fully accessible.</p>
+<p><mark><b><i> Note: </b></i></mark>You need to enter your BitLocker drive Password at every startup.</p>
+<br>
+<img src="BitLocker1(full)_files/image012.png" width="820" height="440" title="Step 12">
+<br><br>
+<button type="button" onclick="window.open('', '_self', ''); window.close();">Close</button>
+<br>
+</center>
+<footer>
+<p style="text-align:center;">	<span style="font-size: 10pt; color: #3742fa;"><b>&copy;</b><b>Developed and Maintained By : </b><span style="font-size: 12pt; color: #002677;">Nitin (New Core Lab)
+</footer>
+</body>
+</html>

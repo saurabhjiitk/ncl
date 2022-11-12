@@ -1,0 +1,29 @@
+<html>
+<head>
+<style>
+#l2
+{
+FONT-FAMILY: Verdana;
+font-size:12px;
+
+}
+
+</style>
+</head>
+<body>
+<center><div style="width:60%;height:50px;background:#4d0000;border-radius:1em;"><h3 style="color:white;padding-top: 10px" vspace="50px">Coordinator</h3></div>
+	
+</center>
+
+<div id="l1" class="l1">
+<div id="l2" class="l2" align="center">
+<img src="pricipal.jpg" width="200px" height="200px" vspace="50px"></img>
+</div>
+<div id="l2" class="l2" align="center">
+Coordinator 
+</div>
+
+</div>
+</center>
+</body>
+</html>

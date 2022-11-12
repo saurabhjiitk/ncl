@@ -1,0 +1,146 @@
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align:center;
+font-family: verdana ;
+background-color: #FFFFCC;
+}
+
+
+
+body,td {
+ font-family: verdana ;
+        font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+
+
+}
+
+h3
+{
+display: inline 
+}
+</style>
+
+</head>
+<body>
+
+<center><h3 style="color:red;">Kislaya Nursery School <br>IIT Kanpur  <br>Academic Calendar 2018-19</h3></center>
+<table width="100%">
+<tr> 
+   <td> Classes Commence on</td>
+   <td>12<sup>th</sup> April (KG)<br>16<sup>th</sup> April(Nursery)</td>
+   <td>Thursday<br>Monday</td> 
+</tr>
+
+<tr> 
+   <td>Summer Vacation</td>
+   <td>10<sup>th </sup> May - 5 <sup>th </sup> July</td>
+   <td>Thursday - Thursday</td> 
+</tr>
+
+<tr> 
+   <td>School Reopen</td>
+   <td>6<sup>th</sup> July</td>
+   <td>Friday</td> 
+</tr>
+
+
+<tr> 
+   <td>Half Yearly Exam(KG)</td>
+   <td>18<sup>th</sup> September - 20<sup>th</sup> September</td>
+   <td> Tuesday -Thursday</td> 
+</tr>
+
+
+<tr> 
+   <td>Autumn Break</td>
+   <td>15<sup>th</sup> October -19<sup>th</sup> October -</td>
+   <td> Monday - Friday</td> 
+</tr>
+
+<tr> 
+   <td>School Reopens</td>
+   <td>22<sup>nd</sup> October</td>
+   <td>Monday</td> 
+</tr>
+
+<tr> 
+   <td>Diwali Break</td>
+   <td>06<sup>th</sup> November - 09<sup>th</sup> November</td>
+   <td>Tuesday - Friday</td> 
+</tr>
+
+<tr> 
+   <td>School Reopens</td>
+   <td>12<sup>th</sup> November</td>
+   <td>Monday</td> 
+</tr>
+
+<tr> 
+   <td>Sports Day *</td>
+   <td>24<sup>th</sup> November</td>
+   <td>Saturday</td> 
+</tr>
+
+<tr> 
+   <td>School Trip *</td>
+   <td>07<sup>th</sup> December </td>
+   <td>Friday</td> 
+</tr>
+
+<tr> 
+   <td>Winter Break</td>
+   <td>24<sup>th</sup> December - 16<sup>th</sup> Junuary</td>
+   <td>Monday - Wednesday</td> 
+</tr>
+
+<tr> 
+   <td>Classes commence on</td>
+   <td>17<sup>th</sup> Junuary</td>
+   <td>Thursday</td> 
+</tr>
+
+<tr> 
+   <td>Cultural Program *</td>
+   <td>23<sup>rd</sup> February</td>
+   <td>Saturday</td> 
+</tr>
+
+<tr> 
+   <td>Final Exam (KG) </td>
+   <td>14<sup>th</sup> - 18<sup>th</sup> March</td>
+   <td>Thursday - Monday</td> 
+</tr>
+
+<tr> 
+   <td>Last Day of session </td>
+   <td>19<sup>th</sup> March</td>
+   <td>Tuesday</td> 
+</tr>
+
+<tr> 
+   <td>Holi Break</td>
+   <td>20<sup>th</sup> - 22<sup>th</sup> March</td>
+   <td>Wednesday - Friday</td> 
+</tr>
+
+<tr> 
+   <td>School Reopens</td>
+   <td> 25<sup>th</sup> March </td>
+   <td>Monday</td> 
+</tr>
+
+
+<table>
+<br>
+*To be confirmed.
+</body>
+</html>
+

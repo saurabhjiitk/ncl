@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Autodesk Inventor Professonal 2021</title>
+<link rel="stylesheet" href="CSS.css">
+
+	
+	<script>
+	document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+	}, false);
+		
+
+	</script>
+	<style>
+		.collapsible_button{
+			display: block;
+			width: 100%;
+			padding: 15px;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			background: #FFFFFF;
+			color: black;
+			text-align: left;
+			font-size: 20px;
+			transition: background 0.2s;
+			
+		}
+		
+		.collapsible_button:hover{
+			background-color: #ECECEC;
+		}
+		
+		.collapsible_button::after{
+			content: '\02795';
+			float: right;
+			color: black;
+			transform: scale(0.7);
+		}
+
+		.collapsible_button--active { background: #ECECEC}
+		.collapsible_button--active::after {content: '\02796'}
+		
+		.collapsible_content{
+			overflow: hidden;
+			max-height: 0;
+			transition: max-height 0.2s;
+			padding: 0 15px;
+			background: #F3F3F3;
+			font-size: 17px;
+
+		}
+	</style>
+	
+
+	
+</head>
+
+<body  >
+
+	<div align="center" style="margin-left: 20%; margin-right: 20%">
+		
+
+		<h1 align="center">Autodesk Inventor Professonal 2021</h1>
+	
+	 
+
+<button class="collapsible_button">1.	Run the Autodesk 2021 “setup.exe”. Setup Initialization.</button>
+	<div class="collapsible_content">
+			<img src="FAQ/Screen Shot FAQ/autodesk inventer 2021/1.PNG" height="70%" width="80%" >
+	</div>
+<button class="collapsible_button">2.	Click on the “Install” button.</button>
+	<div class="collapsible_content">
+			<img src="FAQ/Screen Shot FAQ/autodesk inventer 2021/2.PNG" height="70%" width="80%" >
+	</div>
+<button class="collapsible_button">3.	Read the License Agreement carefully then select “I accept” button and Click on “Next” button.</button>
+	<div class="collapsible_content">
+			<img src="FAQ/Screen Shot FAQ/autodesk inventer 2021/3.PNG" height="70%" width="80%" >
+	</div>
+<button class="collapsible_button">4.	Choose the “Autodesk Inverter Professional 2021” product to install and Click on “Next” button.</button>
+	<div class="collapsible_content">
+			<img src="FAQ/Screen Shot FAQ/autodesk inventer 2021/4.PNG" height="70%" width="80%" >
+	</div>
+<button class="collapsible_button">5.	Select the Installation   folder path from local drive. Choose the default folder path and Click on “Install” button.</button>
+	<div class="collapsible_content">
+			<img src="FAQ/Screen Shot FAQ/autodesk inventer 2021/5.PNG" height="70%" width="80%" >
+	</div>
+<button class="collapsible_button">6.	Wait a several minute for the installation complete</button>
+	<div class="collapsible_content">
+			<img src="FAQ/Screen Shot FAQ/autodesk inventer 2021/6.PNG" height="70%" width="80%" >
+	</div>
+<button class="collapsible_button">7.	Installation is finished, and Click on “Finish” button.</button>
+	<div class="collapsible_content">
+			<img src="FAQ/Screen Shot FAQ/autodesk inventer 2021/7.PNG" height="70%" width="80%" >
+	</div>
+<button class="collapsible_button">8.	Click on “Yes” button for restart system.</button>
+	<div class="collapsible_content">
+			<img src="FAQ/Screen Shot FAQ/autodesk inventer 2021/8.PNG" height="70%" width="80%" >
+	</div>
+<button class="collapsible_button">9.	Launch Autodesk Inverter 2021. And Select “Use a network license” option.</button>
+	<div class="collapsible_content">
+			<img src="FAQ/Screen Shot FAQ/autodesk inventer 2021/9.PNG" height="70%" width="80%" >
+	</div>
+<button class="collapsible_button">10.	“Specify a license server”.  Select Single Licence Server model and Enter the Server IP Address is “172.31.1.12”</button>
+	<div class="collapsible_content">
+			<img src="FAQ/Screen Shot FAQ/autodesk inventer 2021/10.PNG" height="70%" width="80%" >
+			<img src="FAQ/Screen Shot FAQ/autodesk inventer 2021/11.PNG" height="70%" width="80%" >
+	</div>
+		
+
+		<div>
+			<button class="button" onclick="window.close()">Close</button>
+		</div>
+		
+	</div>
+
+<footer>
+  <p>&copy;SJ </p>
+</footer>
+	
+	<script>
+		document.querySelectorAll('.collapsible_button').forEach(button => {
+			button.addEventListener('click', () => {
+				 const collapsibleContent = button.nextElementSibling;
+				
+				button.classList.toggle('collapsible_button--active');
+				
+				if (button.classList.contains('collapsible_button--active')){
+					collapsibleContent.style.maxHeight = collapsibleContent.scrollHeight + 'px';
+				}else{
+					collapsibleContent.style.maxHeight = 0;
+				}
+			})
+		});
+	</script>
+</body>
+</html>

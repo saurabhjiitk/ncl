@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <title>Kislaya Nursery School </title>
+  <meta name="author" content="Jake Rocheleau">
+  <link rel="shortcut icon" href="http://designshack.net/favicon.ico">
+  <link rel="icon" href="http://designshack.net/favicon.ico">
+  <link rel="stylesheet" type="text/css" media="all" href="css/styles.css">
+  <link rel="stylesheet" type="text/css" media="all" href="css/jquery.lightbox-0.5.css">
+  <script type="text/javascript" src="js/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="js/jquery.lightbox-0.5.min.js"></script>
+
+<style>
+ img {
+    border-radius: 8px;
+}
+
+</style>
+</head>
+
+<body>
+<script language=JavaScript>
+<!--
+
+//Disable right mouse click Script
+//By Maximus (maximus@nsimail.com) w/ mods by DynamicDrive
+//For full source code, visit http://www.dynamicdrive.com
+
+var message="Function Disabled!";
+
+///////////////////////////////////
+function clickIE4(){
+if (event.button==2){
+alert(message);
+return false;
+}
+}
+
+function clickNS4(e){
+if (document.layers||document.getElementById&&!document.all){
+if (e.which==2||e.which==3){
+return false;
+}
+}
+}
+
+if (document.layers){
+document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown=clickNS4;
+}
+else if (document.all&&!document.getElementById){
+document.onmousedown=clickIE4;
+}
+
+document.oncontextmenu=new Function("return false")
+
+// --> 
+</script>   
+
+  <div id="w">
+    <div id="content">
+      <h1>Photo Gallery</h1>
+
+        <h1 style="text-align:left;"> Mango Party 2016-2017 </h1>  
+ <p><strong>To enlarge click on any image.</strong></p>
+      <div id="thumbnails" style="text-align:cente;">
+
+
+
+        <ul class="clearfix">
+        
+          <li><a href="images/photos/MangoParty2016/DSC03882.JPG" ><img width="150" height="150" src="photogallary/DSC_0108.JPG" ></a></li>
+          
+          <li><a href="images/photos/DSC_0184.JPG" ><img img width="150" height="150" src="photogallary/DSC_0184.JPG" ></a></li>
+          
+          <li><a href="images/photos/DSC_0190.JPG" ><img img width="150" height="150" src="photogallary/DSC_0190.JPG" ></a></li>
+          
+          <li><a href="images/photos/DSC_0215.JPG" ><img img width="150" height="150" src="photogallary/DSC_0215.JPG" ></a></li>
+          
+          <li><a href="images/photos/DSC_0236.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0236.JPG" ></a></li>
+           <li><a href="images/photos/DSC_0270.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0270.JPG" ></a></li> 
+         <li><a href="images/photos/DSC_0274.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0274.JPG" ></a></li>     
+        <li><a href="images/photos/DSC_0282.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0282.JPG" ></a></li>
+	<li><a href="images/photos/DSC_0286.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0286.JPG" ></a></li>
+</ul>
+</div>
+       <h1 style="text-align:left;"> Sport Day 2015-2016 </h1>  
+      <p><strong>To enlarge click on any image.</strong></p>
+      <div id="thumbnails" style="text-align:cente;">
+
+
+
+        <ul class="clearfix">
+        
+          <li><a href="images/photos/DSC_0108.JPG" ><img width="150" height="150" src="photogallary/DSC_0108.JPG" ></a></li>
+          
+          <li><a href="images/photos/DSC_0184.JPG" ><img img width="150" height="150" src="photogallary/DSC_0184.JPG" ></a></li>
+          
+          <li><a href="images/photos/DSC_0190.JPG" ><img img width="150" height="150" src="photogallary/DSC_0190.JPG" ></a></li>
+          
+          <li><a href="images/photos/DSC_0215.JPG" ><img img width="150" height="150" src="photogallary/DSC_0215.JPG" ></a></li>
+          
+          <li><a href="images/photos/DSC_0236.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0236.JPG" ></a></li>
+           <li><a href="images/photos/DSC_0270.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0270.JPG" ></a></li> 
+         <li><a href="images/photos/DSC_0274.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0274.JPG" ></a></li>     
+        <li><a href="images/photos/DSC_0282.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0282.JPG" ></a></li>
+	<li><a href="images/photos/DSC_0286.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0286.JPG" ></a></li>
+	<li><a href="images/photos/DSC_0336.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0336.JPG" ></a></li>
+	<li><a href="images/photos/DSC_0355.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0355.JPG" ></a></li>
+	<li><a href="images/photos/DSC_0382.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0382.JPG" ></a></li>
+	<li><a href="images/photos/DSC_0394.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0394.JPG" ></a></li>
+	<li><a href="images/photos/DSC_0405.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0405.JPG" ></a></li> 
+	<li><a href="images/photos/DSC_0428.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0428.JPG" ></a></li>
+	<li><a href="images/photos/DSC_0448.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0448.JPG" ></a></li>
+	<li><a href="images/photos/DSC_0478.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0478.JPG" ></a></li>
+	<li><a href="images/photos/DSC_0499.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0499.JPG" ></a></li>
+	<li><a href="images/photos/DSC_0521.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0521.JPG" ></a></li>
+	<li><a href="images/photos/DSC_0547.JPG" ><img  img width="150" height="150" src="photogallary/DSC_0547.JPG" ></a></li> 
+        <li><a href="images/photos/Kislaya2016-  (8).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (8).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (19).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (19).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (25).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (25).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (42).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (42).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (71).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (71).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (88).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (88).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (97).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (97).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (124).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (124).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (169).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (169).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (181).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (181).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (195).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (195).jpg" ></a></li> 
+        <li><a href="images/photos/Kislaya2016-  (211).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (211).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (220).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (220).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (232).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (232).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (268).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (268).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (274).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (274).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (326).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (326).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (330).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (330).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (365).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (365).jpg" ></a></li> 
+	<li><a href="images/photos/Kislaya2016-  (375).jpg" ><img  img width="150" height="150" src="photogallary/Kislaya2016-  (375).jpg" ></a></li> 
+	
+        </ul>
+      </div>
+    </div><!-- @end #content -->
+  </div><!-- @end #w -->
+<script type="text/javascript">
+$(function() {
+    $('#thumbnails a').lightBox();
+});
+</script>
+</body>
+</html>

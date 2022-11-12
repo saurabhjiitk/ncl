@@ -1,0 +1,150 @@
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align:left ;
+    background-color: #FFFFCC;
+       
+}
+
+td {
+ font-family: verdana ;
+        font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+        
+
+
+}
+p {
+ font-family: verdana ;
+        font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+        
+
+
+}
+table
+{
+width:100% ;
+}
+
+th
+{
+width:50%;
+}
+
+
+</style>
+</head>
+<body>
+<h3 style="color:red;text-align:center"> Kislaya Nursery School<br>IIT Kanpur <br><br> School Uniform</h3>
+<div id="uniform">
+<div id="uniform1"></div>
+<div id="uniform1"></div>
+</div>
+
+
+
+<table >
+<tr>
+<th colspan="2" style="color:red;font-size:14px;text-align:center">Summer Uniform  </th>
+<th colspan="2" style="color:red;font-size:14px;text-align:center">Summer Uniform (Thursday)</th>
+</tr>
+<tr>
+<td valign="top"><strong>Boys: </strong> </td>
+<td>Red half sleeved shirt.<br>
+    Red check half pant.<br>
+    
+    Black velcro shoes & white socks.<br>
+    
+
+</td>
+<td valign="top"><strong>Boys: </strong> </td>
+<td>White half sleeved shirt.<br>
+    White half pant.<br>
+ 
+    White velcro shoes and white socks.<br>
+    
+
+</td>
+</tr>
+
+<tr>
+<td valign="top"><strong >Girls:</strong></td>
+<td>Red full sleeved shirt<br>
+Red check tunic<br>
+
+Black velcro shoes and white socks<br>
+</td>
+<td valign="top"><strong >Girls:</strong></td>
+<td>White half sleeved shirt.<br>
+White skirt.<br>
+
+White velcro shoes and white socks.<br>
+</td>
+</tr>
+</table>
+<table vspace="4px">
+<tr>
+<th colspan="2" width="50%"  style="color:red;font-size:14px;text-align:center"> Winter Uniform </th>
+<th colspan="2" width="50%" style="color:red;font-size:14px;text-align:center"> Winter Uniform (Thursday)</th>
+</tr>
+
+<tr>
+<td valign="top"><strong>Boys:</strong> </td>
+<td>Red full sleeved shirt.<br>
+    Red check full pant.<br>
+    Red full sleeved sweater. <br> Red woollen cap. <br>
+    Black velcro shoes and white socks.<br>
+    
+
+</td>
+<td valign="top"><strong>Boys:</strong> </td>
+<td>White full sleeved shirt.<br>
+    White check full pant.<br>
+White full sleeved sweater. <br> White woollen cap. <br>
+        White velcro shoes and white socks.
+    
+
+</td>
+</tr>
+<tr>
+<td valign="top"><strong>Girls:</strong> </td>
+<td>Red full sleeved shirt.<br>
+    Red leg-in.<br>
+    Red full sleeved sweater. <br> Red woollen scarf/cap. <br>
+    Black velcro shoes and white socks.<br>
+    
+
+</td>
+<td valign="top"><strong >Girls:</strong></td>
+<td>White full sleeved shirt.<br>
+White leg-in.<br>
+White full sleeved sweater. <br>White woollen scarf/cap. <br>
+White velcro shoes and white socks.<br>
+</td>
+</tr>
+
+</table>
+
+<p>
+<strong>Contact Address </strong> of the tailor who provides the uniform and other dress materials is :<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>ARJIT SCHOOL UNIFORM</strong><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mr. P.C. Bajpai <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;73-A Panki Road, Kalyanpur Khurd <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Opposite Allahabad Bank), Kanpur.<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mob. 7499346283 <strong>(Time: 10:00 AM to 8:00 PM).</strong></p><p>
+
+
+
+
+</body>
+</html>
